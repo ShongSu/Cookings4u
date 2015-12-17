@@ -8,7 +8,7 @@ p {margin: 0;}
 html, body{
   font-family: 'Exo', sans-serif;
    font-size: 100%;
-   background:#fff; 
+   background:#fff;
 }
 /*--banner start here--*/
 .banner {
@@ -569,8 +569,8 @@ ul.imagesprite li a.y {
 ul.imagesprite li a.g:hover{
 	background-position:0px 0px;
 	opacity: 1.0;
-      filter: alpha(opacity=100); 
-      transition: all 0.3s ease; 
+      filter: alpha(opacity=100);
+      transition: all 0.3s ease;
      -webkit-transition: all 0.3s ease;
      -moz-transition: all 0.3s ease;
      -o-transition: all 0.3s ease;
@@ -578,8 +578,8 @@ ul.imagesprite li a.g:hover{
 ul.imagesprite li a.fa:hover{
 	background-position:-44px 0px;
 	opacity: 1.0;
-      filter: alpha(opacity=100); 
-      transition: all 0.3s ease; 
+      filter: alpha(opacity=100);
+      transition: all 0.3s ease;
      -webkit-transition: all 0.3s ease;
      -moz-transition: all 0.3s ease;
      -o-transition: all 0.3s ease;
@@ -587,8 +587,8 @@ ul.imagesprite li a.fa:hover{
 ul.imagesprite li a.tw:hover {
 	background-position: -87px 0px;
 	opacity: 1.0;
-      filter: alpha(opacity=100); 
-      transition: all 0.3s ease; 
+      filter: alpha(opacity=100);
+      transition: all 0.3s ease;
      -webkit-transition: all 0.3s ease;
      -moz-transition: all 0.3s ease;
      -o-transition: all 0.3s ease;
@@ -596,8 +596,8 @@ ul.imagesprite li a.tw:hover {
 ul.imagesprite li a.p:hover {
 	background-position: -128px 0px;
 	opacity: 1.0;
-      filter: alpha(opacity=100); 
-      transition: all 0.3s ease; 
+      filter: alpha(opacity=100);
+      transition: all 0.3s ease;
      -webkit-transition: all 0.3s ease;
      -moz-transition: all 0.3s ease;
      -o-transition: all 0.3s ease;
@@ -605,8 +605,8 @@ ul.imagesprite li a.p:hover {
 ul.imagesprite li a.y:hover {
 	background-position: -170px 0px;
 	opacity: 1.0;
-      filter: alpha(opacity=100); 
-      transition: all 0.3s ease; 
+      filter: alpha(opacity=100);
+      transition: all 0.3s ease;
      -webkit-transition: all 0.3s ease;
      -moz-transition: all 0.3s ease;
      -o-transition: all 0.3s ease;
@@ -710,7 +710,7 @@ ul.ftr-navg li a:hover{
 }
 .about-top {
 	padding-bottom: 3em;
-	text-align:center;	
+	text-align:center;
 }
 .about-top h3 {
 	font-size: 2em;
@@ -971,7 +971,7 @@ ul.p_n-list li a:hover{
 	color:#fff;
 	background:#CA723D;
 	text-decoration:none;
-	transition: all 0.3s ease; 
+	transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -1016,7 +1016,7 @@ ul.p_n-list li a:hover{
 .blog-contact input[type="submit"]:hover {
 	background:#a16d77;
 	color:#fff;
-	transition: all 0.3s ease; 
+	transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -1053,7 +1053,7 @@ a.comme {
 a.comme:hover{
 	text-decoration:none;
 	color:#CA723D;
-	transition: all 0.3s ease; 
+	transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -1071,7 +1071,7 @@ a.comme:hover{
 .user-bwn a:hover{
 	background: #A16D77;
 	text-decoration:none;
-	transition: all 0.3s ease; 
+	transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -1085,12 +1085,13 @@ a.comme:hover{
 .contact-bottom-left input[type="text"] {
 	outline: none;
 	padding: 8px;
-	width: 90%;
+	width: 40%;
 	border: 1px solid #CA723D;
 	-webkit-appearance: none;
 }
 .contact {
 	padding: 3em 0px;
+  text-align: center;
 }
 .contact-top h3 {
 	font-size: 2em;
@@ -1104,9 +1105,10 @@ a.comme:hover{
 }
 .contact-bottom-left p {
 	font-size: 1em;
+  text-align: left;
 	font-weight: 400;
 	color: #000;
-	margin: 7px 0px;
+	margin: 7px 30%;
 }
 .contact-bottom-left input[type="submit"] {
 	outline: none;
@@ -1118,6 +1120,8 @@ a.comme:hover{
 	padding: 10px 2em;
 	margin: 1em 0px;
 	-webkit-appearance: none;
+  width: 40%;
+
 }
 .contact-bottom-left input[type="submit"]:hover{
 	background:#a16d77;
@@ -1128,20 +1132,7 @@ a.comme:hover{
  -moz-transition:  0.5s all;
  -o-transition:  0.5s all;
 }
-.contact-bottom-right p {
-	font-size: 1em;
-	font-weight: 400;
-	color: #000;
-	margin:5px 0px;
-}
-.contact-bottom-right textarea {
-	outline: none;
-	padding:8px;
-	width: 95%;
-	height: 12em;
-	resize: none;
-	border:1px solid #CA723D;
-}
+
 .addre h4 {
 	font-size: 1.4em;
 	font-weight: 600;
@@ -1178,7 +1169,7 @@ a.comme:hover{
 }
 /*--media quiries start here--*/
 @media(max-width:1280px){
-	
+
 }
 @media(max-width:1024px){
 .banner {
@@ -1192,7 +1183,7 @@ a.comme:hover{
 }
 .callbacks_nav {
 	left: 45px;
-}	
+}
 .coff-top-grid1 {
 	background-size: 98%;
 }
@@ -1261,7 +1252,7 @@ ul.res{
 	margin: 0px;
 	border-bottom: 1px solid #fff;
 	background-color:#fff;
-}	
+}
 clear{
 	clear:both;
 }
@@ -1495,7 +1486,7 @@ ul.p_n-list li {
 @media(max-width:480px){
 .banner-contant h3 {
 	font-size: 1.8em;
-}	
+}
 .banner-contant p {
 	font-size: 0.8em;
 	width: 80%;
@@ -1672,15 +1663,11 @@ ul.p_n-list li a {
 .contact-bottom-left p {
 	font-size: 0.9em;
 }
-.contact-bottom-right p {
-	font-size: 0.9em;
-}
+
 .contact-bottom-left input[type="submit"] {
 	font-size: 0.8em;
 }
-.contact-bottom-right textarea {
-	height: 10em;
-}
+
 .addre h4 {
 	font-size: 1.1em;
 }
@@ -1706,7 +1693,7 @@ ul.p_n-list li a {
 @media(max-width:320px){
 .logo img {
 	width: 75%;
-}	
+}
 .logo {
 	width: 63%;
 }
@@ -1792,7 +1779,7 @@ span.menu img {
 	width: 65%;
 }
 .sub {
- 	margin-top: 0em; 
+ 	margin-top: 0em;
 }
 .sub input[type="text"] {
 	font-size: 0.75em;
@@ -1892,16 +1879,12 @@ ul.popular-tag li a {
 .contact-bottom-left input[type="submit"] {
 	font-size: 0.7em;
 }
-.contact-bottom-right textarea {
-	height: 7em;
-}
+
 .addre h4 {
 	font-size: 1em;
 	margin:  5px 0px;
 }
-.contact-bottom-right p {
-	font-size: 0.8em;
-}
+
 .map iframe {
 	height: 130px;
 }
@@ -1949,3 +1932,13 @@ a.comme {
 }
 }
 /*--media quiries end here--*/
+
+
+body .create{
+  text-align: center;
+}
+
+#ctitle{
+  margin: 1.5em;
+  font-size: 2em;
+}
