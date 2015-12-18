@@ -1093,7 +1093,7 @@ a.comme:hover{
 .contact-bottom-left input[type="password"] {
 	outline: none;
 	padding: 8px;
-	width: 90%;
+	width: 40%;
 	border: 1px solid #CA723D;
 	-webkit-appearance: none;
 }
@@ -1138,7 +1138,6 @@ a.comme:hover{
 	margin: 1em 0px;
 	-webkit-appearance: none;
   width: 40%;
-
 }
 
 .contact-bottom-left input[type="button"] {
@@ -1151,6 +1150,7 @@ a.comme:hover{
 	padding: 10px 2em;
 	margin: 1em 0px;
 	-webkit-appearance: none;
+  width: 40%;
 }
 .contact-bottom-left input[type="submit"]:hover{
 	background:#a16d77;
@@ -1728,6 +1728,9 @@ ul.p_n-list li a {
 .contact-bottom-left input[type="button"] {
 	font-size: 0.8em;
 }
+.contact-bottom-left input[type="password"] {
+	font-size: 0.8em;
+}
 .contact-bottom-right textarea {
 	height: 10em;
 }
@@ -2016,4 +2019,8 @@ body .create{
 #ctitle{
   margin: 1.5em;
   font-size: 2em;
+}
+
+#new{
+  color: blue;
 }

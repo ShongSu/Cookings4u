@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Cookings4u | Login</title>
+<title>Cookings4u | Reset</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
@@ -40,11 +40,7 @@
 				<div class="clear"> </div>
 			<div class="navg">
 				<ul class="res">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="service.html">Services</a></li>
-					<li><a href="blog.html">Blog</a></li>
-					<li><a class="active" href="contact.html">Contact</a></li>
+					<li><a href="login.html">Sign In</a></li>
 				</ul>
 				<script>
                                   $( "span.menu").click(function() {
@@ -64,16 +60,18 @@
 	<div class="container">
 		<div class="contact-main">
 			<div class="contact-top">
-				<h3>Login</h3>
+				<h3>Reset Your Password</h3>
 			</div>
 			<div class="contact-bottom">
 				<div class="contact-bottom-left">
-					<p>Email</p>
-					<input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}"/>
-					<p>Password</p>
-					<input type="password" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}"/>
-					<p>Forgot Your Password?</p>
-					<input type="submit" value="Sign In">
+					<p>Input your email address, we will send you an email to reset your password.</p>
+					<br />
+					<input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" placeholder="Your Email Address"/>
+					<br />
+					<input type="submit" value="Send">
+					<br />
+					<a href="./login.html"><input type="button" value="Cancel"></a>
+
 				</div>
 			</div>
 		</div>
