@@ -27,6 +27,20 @@
 			});
 	</script>
 <!-- //end-smoth-scrolling -->
+
+<?php
+error_reporting(0);
+session_start();
+
+
+  include('conn.php');
+  //$userid = $_SESSION['Id_User'];
+  //$name = $_SESSION['username'];
+
+//echo $name;
+
+?>
+
 </head>
 <body>
 <script src="js/responsiveslides.min.js"></script>
@@ -56,13 +70,13 @@
 	<div class="container">
 		<div class="header-main">
 			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" alt=""/></a>
+				<a href="index.php"><img src="images/logo.png" alt=""/></a>
 			</div>
 			<span class="menu"> <img src="images/icon.png" alt=""/></span>
 				<div class="clear"> </div>
 			<div class="navg">
 				<ul class="res">
-					<li><a href="login.html">Sign In</a></li>
+					<li><a href="login.php">Sign In</a></li>
 					<!-- <li><a href="service.html">Services</a></li>
 					<li><a href="blog.html">Blog</a></li>
 					<li><a href="contact.html">Contact</a></li> -->
