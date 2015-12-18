@@ -76,7 +76,7 @@ session_start();
 				<div class="clear"> </div>
 			<div class="navg">
 				<ul class="res">
-					<li><a href="login.php">Sign In</a></li>
+					<li><a href="./account/login.php">Sign In</a></li>
 					<!-- <li><a href="service.html">Services</a></li>
 					<li><a href="blog.html">Blog</a></li>
 					<li><a href="contact.html">Contact</a></li> -->
