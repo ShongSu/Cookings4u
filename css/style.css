@@ -1161,9 +1161,7 @@ a.comme:hover{
  -moz-transition:  0.5s all;
  -o-transition:  0.5s all;
 }
-<<<<<<< HEAD
 
-=======
 .contact-bottom-left input[type="button"]:hover{
 	background:#a16d77;
 	color:#fff;
@@ -1187,7 +1185,6 @@ a.comme:hover{
 	resize: none;
 	border:1px solid #CA723D;
 }
->>>>>>> 7da62b0a202cef51740a9093126735f6200a9f92
 .addre h4 {
 	font-size: 1.4em;
 	font-weight: 600;
@@ -1728,16 +1725,12 @@ ul.p_n-list li a {
 .contact-bottom-left input[type="submit"] {
 	font-size: 0.8em;
 }
-<<<<<<< HEAD
-
-=======
 .contact-bottom-left input[type="button"] {
 	font-size: 0.8em;
 }
 .contact-bottom-right textarea {
 	height: 10em;
 }
->>>>>>> 7da62b0a202cef51740a9093126735f6200a9f92
 .addre h4 {
 	font-size: 1.1em;
 }
@@ -1955,16 +1948,13 @@ ul.popular-tag li a {
 .contact-bottom-left input[type="submit"] {
 	font-size: 0.7em;
 }
-<<<<<<< HEAD
 
-=======
 .contact-bottom-left input[type="button"] {
 	font-size: 0.7em;
 }
 .contact-bottom-right textarea {
 	height: 7em;
 }
->>>>>>> 7da62b0a202cef51740a9093126735f6200a9f92
 .addre h4 {
 	font-size: 1em;
 	margin:  5px 0px;
@@ -2017,7 +2007,6 @@ a.comme {
 }
 }
 /*--media quiries end here--*/
-<<<<<<< HEAD
 
 
 body .create{
@@ -2028,5 +2017,3 @@ body .create{
   margin: 1.5em;
   font-size: 2em;
 }
-=======
->>>>>>> 7da62b0a202cef51740a9093126735f6200a9f92
