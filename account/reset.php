@@ -2,11 +2,11 @@
 <html>
 <head>
 <title>Cookings4u | Reset</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
+<script src="../js/jquery.min.js"></script>
 <!-- Custom Theme files -->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css" media="all"/>
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -16,8 +16,8 @@
 <!--Google Fonts-->
 <link href='http://fonts.useso.com/css?family=Exo:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="../js/move-top.js"></script>
+<script type="text/javascript" src="../js/easing.js"></script>
 	<script type="text/javascript">
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){
@@ -34,13 +34,13 @@
 	<div class="container">
 		<div class="header-main">
 			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" alt=""/></a>
+				<a href="index.php"><img src="../images/logo.png" alt=""/></a>
 			</div>
-			<span class="menu"> <img src="images/icon.png" alt=""/></span>
+			<span class="menu"> <img src="../images/icon.png" alt=""/></span>
 				<div class="clear"> </div>
 			<div class="navg">
 				<ul class="res">
-					<li><a href="login.html">Sign In</a></li>
+					<li><a href="login.php">Sign In</a></li>
 				</ul>
 				<script>
                                   $( "span.menu").click(function() {
@@ -70,7 +70,7 @@
 					<br />
 					<input type="submit" value="Send">
 					<br />
-					<a href="./login.html"><input type="button" value="Cancel"></a>
+					<a href="./login.php"><input type="button" value="Cancel"></a>
 
 				</div>
 			</div>

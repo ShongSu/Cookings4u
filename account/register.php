@@ -2,11 +2,11 @@
 <html>
 <head>
 <title>Cookings4u | Register</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="js/jquery.min.js"></script>
+<script src="../js/jquery.min.js"></script>
 <!-- Custom Theme files -->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css" media="all"/>
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -16,8 +16,8 @@
 <!--Google Fonts-->
 <link href='http://fonts.useso.com/css?family=Exo:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="../js/move-top.js"></script>
+<script type="text/javascript" src="../js/easing.js"></script>
 	<script type="text/javascript">
 			jQuery(document).ready(function($) {
 				$(".scroll").click(function(event){
@@ -34,13 +34,13 @@
 	<div class="container">
 		<div class="header-main">
 			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" alt=""/></a>
+				<a href="../index.php"><img src="../images/logo.png" alt=""/></a>
 			</div>
-				<span class="menu"> <img src="images/icon.png" alt=""/></span>
+				<span class="menu"> <img src="../images/icon.png" alt=""/></span>
 				<div class="clear"> </div>
 			<div class="navg">
 				<ul class="res">
-					<li><a href="login.html">Sign In</a></li>
+					<li><a href="login.php">Sign In</a></li>
 				</ul>
 			</div>
 		  <div class="clearfix"> </div>
@@ -101,10 +101,10 @@
 			<div class="col-md-4 ftr-bottom">
 				<p>Lipsum Street, Cape town, New york.</p>
 				<ul class="ftr-navg">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="service.html">Services</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="about.php">About</a></li>
+					<li><a href="service.php">Services</a></li>
+					<li><a href="contact.php">Contact</a></li>
 				</ul>
 			</div>
 			<div class="col-md-4 ftr-bottom">

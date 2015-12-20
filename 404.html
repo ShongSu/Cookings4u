@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Cookings4u | My Restaurant</title>
+<title>Service</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery.min.js"></script>
@@ -20,7 +20,7 @@
 <script type="text/javascript" src="js/easing.js"></script>
 	<script type="text/javascript">
 			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){
+				$(".scroll").click(function(event){		
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 				});
@@ -40,8 +40,11 @@
 				<div class="clear"> </div>
 			<div class="navg">
 				<ul class="res">
-					<li>Welcome XXX!</li>
-					<li><a href="login.html">Log out</a></li>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a class="active" href="service.html">Services</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
 				</ul>
 				<script>
                                   $( "span.menu").click(function() {
@@ -55,35 +58,38 @@
 		</div>
 	</div>
 	</div>
-<!--banner end here-->
-<!--contact start here-->
-<div class="contact">
+<!--banner end here-->	
+<!--services start here-->
+<div class="service">
 	<div class="container">
-		<div class="contact-main">
-			<div class="contact-top">
-
-			</div>
-			<div class="contact-bottom">
-
-				<div class="col-md-6 contact-bottom-left">
-					<h3><a href="./">My Account</a></h3>
-
-				</div>
-
-				<div class="col-md-6 contact-bottom-right">
-					<h3><a href="./">My Restaurant</a></h3>
-				</div>
-
-			</div>
+		<div class="services-main">
+			<h3>Sorry</h3>
+			<p>Page Request Was not Found</p>
+			<h4>404</h4>
+			 <div class="services-bwn">
+		  		<a href="index.html">Go Back</a>
+		  	 </div>
 		</div>
 	</div>
 </div>
-<!--contact end here-->
-
+<!--services end here-->
 <!--footer start here-->
 <div class="footer">
 	<div class="footer-main">
-
+		<div class="container">
+		   <div class="footer-top">
+			   <div class="ftr-img"> <img src="images/ftr-contact.png" alt=""/> </div>
+				<div class="sub">
+					<input type="text" value="Enter email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter email';}"/>
+					<input type="submit" value="Submit">
+				</div>
+				<div class="clearfix"> </div>
+				<div class="para">
+					<p>Subscribe for New Letter</p>
+				</div>
+				<div class="clearfix"> </div>
+					</div>
+				</div>
 		</div>
 		<div class="footer-bottom">
 			<div class="container">
@@ -122,12 +128,12 @@
 									  			containerID: 'toTop', // fading element id
 												containerHoverID: 'toTopHover', // fading element hover id
 												scrollSpeed: 1200,
-												easingType: 'linear'
+												easingType: 'linear' 
 									 		};
 											*/
-
+											
 											$().UItoTop({ easingType: 'easeOutQuart' });
-
+											
 										});
 									</script>
 						<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>

@@ -60,9 +60,9 @@ function InputCheck(LoginForm)
 					<form name="LoginForm" method="post" action=""  onSubmit="return InputCheck(this)">
 					<p>Email</p>
 					<input type="text" name="email" value=""/>
-					<p>Password (<a href="./reset.html">Forgot Your Password?</a>)</p>
+					<p>Password (<a href="./reset.php">Forgot Your Password?</a>)</p>
 					<input type="password" name="password" value=""/>
-					<p id="new"><a href="./register.html">New User?</a></p>
+					<p id="new"><a href="./register.php">New User?</a></p>
 					<input type="submit" name="submit" value="Sign In">
 					</form>
 				</div>
@@ -97,7 +97,7 @@ function InputCheck(LoginForm)
 	//$password = MD5(htmlspecialchars($_POST['password']));
 	//包含数据库连接文件
 
-	include('conn.php');
+	include('../conn.php');
 	//检测用户名及密码是否正确
 	$check_query = mysql_query("SELECT * from user WHERE email = '$email' AND pwd = '$password' LIMIT 1");
 	if($result = mysql_fetch_array($check_query)){
@@ -110,7 +110,7 @@ function InputCheck(LoginForm)
 		//$resultemail=$result['Email'];
 		//$_SESSION['username'] = $resultname;
 		//$_SESSION['useremail'] = $resultemail;
-		header('Location: ./option.html');
+		header('Location: ./option.php');
 		//$status=$_GET['status'];
 		//$id=$_GET['id'];
 
@@ -175,10 +175,10 @@ function InputCheck(LoginForm)
 			<div class="col-md-4 ftr-bottom">
 				<p>Lipsum Street, Cape town, New york.</p>
 				<ul class="ftr-navg">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="service.html">Services</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="about.php">About</a></li>
+					<li><a href="service.php">Services</a></li>
+					<li><a href="contact.php">Contact</a></li>
 				</ul>
 			</div>
 			<div class="col-md-4 ftr-bottom">
