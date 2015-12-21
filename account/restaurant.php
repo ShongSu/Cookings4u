@@ -65,14 +65,7 @@
 			</div>
 			<div class="contact-bottom">
 
-				<div class="col-md-6 contact-bottom-left">
-					<h3><a href="./account.php">My Account</a></h3>
 
-				</div>
-
-				<div class="col-md-6 contact-bottom-right">
-					<h3><a href="./restaurant.php">My Restaurant</a></h3>
-				</div>
 
 			</div>
 		</div>
@@ -101,10 +94,10 @@
 			<div class="col-md-4 ftr-bottom">
 				<p>Lipsum Street, Cape town, New york.</p>
 				<ul class="ftr-navg">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="service.html">Services</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="about.php">About</a></li>
+					<li><a href="service.php">Services</a></li>
+					<li><a href="contact.php">Contact</a></li>
 				</ul>
 			</div>
 			<div class="col-md-4 ftr-bottom">

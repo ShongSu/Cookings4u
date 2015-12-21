@@ -83,11 +83,16 @@ function InputCheck(LoginForm)
 	session_start();
 	//注销登录
 	if(isset($_GET['action']) && $_GET['action'] == "logout"){
-		unset($_SESSION['email']);
+		unset($_SESSION['useremail']);
 		unset($_SESSION['username']);
-  	//	echo "<script language='javascript'> alert('Log out successfully!') </script> ";
-		header("personal.php");
+  	echo "<script language='javascript'> alert('Log out successfully!') </script> ";
+		header("login.php");
 	}
+
+	if(isset($_SESSION['useremail'])){
+		header("Location:option.php");
+	}
+
 
 	//登录
 	if(isset($_POST['submit'])){
@@ -105,11 +110,13 @@ function InputCheck(LoginForm)
 
 		echo "<script language='javascript'> alert('登陆成功') </script> ";
 		//登录成功
-		//$_SESSION['Email'] = $username;
-		//$resultname=$result['Name'];
-		//$resultemail=$result['Email'];
-		//$_SESSION['username'] = $resultname;
-		//$_SESSION['useremail'] = $resultemail;
+		//$_SESSION['useremail'] = $email;
+		$resultemail=$result['email'];
+		$resultname=$result['name'];
+		//echo $resultemail;
+		//echo $resultname;
+		$_SESSION['username'] = $resultname;
+		$_SESSION['useremail'] = $resultemail;
 		header('Location: ./option.php');
 		//$status=$_GET['status'];
 		//$id=$_GET['id'];

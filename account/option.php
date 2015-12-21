@@ -27,6 +27,25 @@
 			});
 	</script>
 <!-- //end-smoth-scrolling -->
+
+<!-- do login here-->
+
+<?php
+error_reporting(0);
+session_start();
+if(!isset($_SESSION['useremail'])){
+	header("Location:login.php");
+	exit();
+}
+$userEmail = $_SESSION['useremail'];
+$userName = $_SESSION['username'];
+
+
+?>
+
+<!-- do login ende here -->
+
+
 </head>
 <body>
 <!--banner start here-->
@@ -40,8 +59,11 @@
 				<div class="clear"> </div>
 			<div class="navg">
 				<ul class="res">
-					<li>Welcome XXX!</li>
-					<li><a href="login.php">Log out</a></li>
+					<?php
+							echo "<li>Welcome <a href='account.php' title='Go to my Account'>$userName</a></li>";
+					?>
+
+					<li><a href="login.php?action=logout" title="Log out">Log out</a></li>
 				</ul>
 				<script>
                                   $( "span.menu").click(function() {
