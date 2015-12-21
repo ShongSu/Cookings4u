@@ -39,8 +39,6 @@ if(!isset($_SESSION['useremail'])){
 }
 $userEmail = $_SESSION['useremail'];
 $userName = $_SESSION['username'];
-
-
 ?>
 
 <!-- do login ende here -->

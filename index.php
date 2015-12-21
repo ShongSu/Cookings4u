@@ -28,18 +28,17 @@
 	</script>
 <!-- //end-smoth-scrolling -->
 
+
+<!-- do login here-->
+
 <?php
 error_reporting(0);
 session_start();
-
-
-  include('conn.php');
-  //$userid = $_SESSION['Id_User'];
-  //$name = $_SESSION['username'];
-
-//echo $name;
-
+$userEmail = $_SESSION['useremail'];
+$userName = $_SESSION['username'];
 ?>
+
+<!-- do login ende here -->
 
 </head>
 <body>
@@ -76,7 +75,15 @@ session_start();
 				<div class="clear"> </div>
 			<div class="navg">
 				<ul class="res">
-					<li><a href="./account/login.php">Sign In</a></li>
+					<?php
+					if(isset($_SESSION['useremail'])){
+						$userName = $_SESSION['username'];
+						echo "<li>Welcome <a href='account/account.php' title='Go to my Account'>$userName</a></li>";
+						echo '<li><a href="account/login.php?action=logout" title="Log out">Log out</a></li>';
+					} else {
+						echo '<li><a href="./account/login.php">Sign In</a></li>';
+					}
+					?>
 					<!-- <li><a href="service.html">Services</a></li>
 					<li><a href="blog.html">Blog</a></li>
 					<li><a href="contact.html">Contact</a></li> -->
@@ -296,10 +303,9 @@ session_start();
 					<li><a class="p" href="#"> </a></li>
 					<li><a class="y" href="#"> </a></li>
 				</ul>
-				<h4>Mail us On : <a href="mailto:example@email.com">123example@email.com</a> </h4>
 			</div>
 			<div class="col-md-4 ftr-bottom">
-				<p>Lipsum Street, Cape town, New york.</p>
+				<p>171 Lees Ave. Ottawa, ON, Canada.</p>
 				<ul class="ftr-navg">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About</a></li>
@@ -308,8 +314,8 @@ session_start();
 				</ul>
 			</div>
 			<div class="col-md-4 ftr-bottom">
-				<p>Call Us:-  10 000 00 0000</p>
-				<p>Copyright &copy; 2015.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+				<p>Mail Us: <a href="mailto:cookings4u@gmail.com">cookings4u@gmail.com</a></p>
+				<p>Copyright &copy;  2015.Cookings4u All rights reserved.</p>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
