@@ -29,16 +29,8 @@
 <!-- //end-smoth-scrolling -->
 
 <!-- do login here-->
-
 <?php
-error_reporting(0);
-session_start();
-if(!isset($_SESSION['useremail'])){
-	header("Location:login.php");
-	exit();
-}
-$userEmail = $_SESSION['useremail'];
-$userName = $_SESSION['username'];
+include('../lib/session.php');
 ?>
 
 <!-- do login ende here -->
@@ -58,7 +50,7 @@ $userName = $_SESSION['username'];
 			<div class="navg">
 				<ul class="res">
 					<?php
-							echo "<li>Welcome <a href='account.php' title='Go to my Account'>$userName</a></li>";
+							echo "<li>Welcome <a href='option.php' title='Go to my Account'>$userName</a></li>";
 					?>
 
 					<li><a href="login.php?action=logout" title="Log out">Log out</a></li>

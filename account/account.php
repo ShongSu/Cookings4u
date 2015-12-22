@@ -27,6 +27,12 @@
 			});
 	</script>
 <!-- //end-smoth-scrolling -->
+<?php
+include('../lib/session.php');
+?>
+
+<!-- do login ende here -->
+
 </head>
 <body>
 <!--banner start here-->
@@ -40,8 +46,11 @@
 				<div class="clear"> </div>
 			<div class="navg">
 				<ul class="res">
-					<li>Welcome XXX!</li>
-					<li><a href="login.php">Log out</a></li>
+					<?php
+							echo "<li>Welcome <a href='option.php' title='Go to my Account'>$userName</a></li>";
+					?>
+					<li><a href="restaurant.php" title="Go to my Restaurant">My Restaurant</a></li>
+					<li><a href="login.php?action=logout" title="Log out">Log out</a></li>
 				</ul>
 				<script>
                                   $( "span.menu").click(function() {

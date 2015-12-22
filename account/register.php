@@ -57,18 +57,23 @@
 			</div>
 			<div class="contact-bottom">
 				<div class="contact-bottom-left">
+					<?php
+					echo '
+					<form action="doRegister.php" method="POST">
 					<p>Full Name</p>
-					<input type="text" name="name" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required/>
+					<input type="text" name="name" value="" required/>
 					<p>Email</p>
-					<input type="text" name="email" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required/>
+					<input type="text" name="email" value="" required/>
 					<p>Password</p>
-					<input type="text" name="password" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required/>
+					<input type="password" name="password" value="" required/>
 					<p>Comfirm Password</p>
-					<input type="text" name="comfirm" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required/>
-					<p><input type="radio" name="userType" value="eater" checked="checked" /> I'm an Eater
+					<input type="password" name="confirm" value="" required/>
+					<p><input type="radio" name="userType" value="eater" checked="checked" /> I am an Eater
 					&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-					<input type="radio" name="userType" value="chef" /> I'm a Chef </p>
+					<input type="radio" name="userType" value="chef" /> I am a Chef </p>
 					<input type="submit" value="Create">
+					</form>';
+					?>
 				</div>
 			  <div class="clearfix"> </div>
 			</div>

@@ -78,7 +78,7 @@ $userName = $_SESSION['username'];
 					<?php
 					if(isset($_SESSION['useremail'])){
 						$userName = $_SESSION['username'];
-						echo "<li>Welcome <a href='account/account.php' title='Go to my Account'>$userName</a></li>";
+						echo "<li>Welcome <a href='account/option.php' title='Go to my Account'>$userName</a></li>";
 						echo '<li><a href="account/login.php?action=logout" title="Log out">Log out</a></li>';
 					} else {
 						echo '<li><a href="./account/login.php">Sign In</a></li>';
